@@ -2,8 +2,8 @@ body {
     margin: 0;
     box-sizing: border-box;
     background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
     background-color: transparent;
-    background-size: cover;
     font-family: Helvetica, sans-serif;
 }
 
@@ -49,4 +49,43 @@ footer {
 aside ul li {
   margin: 1.5% 0;
   line-height: 1.5;
+}
+
+.projectName {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.projectIcon {
+  color: black;
+  font-size: 16px;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+  background-color: #222;
+  border-color: #080808;
+  box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+  font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+  padding: 0;
+}
+
+.navbar-collapse {
+  background-color: white;
+  opacity: 0.8;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
 }
