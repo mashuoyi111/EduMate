@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EduMate</title>
+    <link href="./css/basic-layout.css" rel="stylesheet">
     <link href="./css/login.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
@@ -20,14 +21,16 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
             crossorigin="anonymous"></script>
         <div class="signin">
-            <form class="form-signin" role="form" name="form" action="./home/login.do" method="post">
                 <input type="text" class="form-control" name="username" id="username" required autofocus placeholder="user name" />
                 <input type="password" class="form-control" name="password" id="password" required placeholder="password" />
-                <button class="btn btn-lg btn-danger btn-block" type="submit">login</button>
-            </form>
-            <form class="form-signin" role="form" name="form" action="./register.jsp" method="post">
-                <button class="btn btn-lg btn-primary btn-block" type="submit">register</button>
-            </form>
+                <div id="row" class="row">
+                    <div id="col" class="col-sm-6">
+                        <button class="btn btn-lg btn-danger btn-block" type="submit">login</button>
+                    </div>
+                    <div id="col" class="col-sm-6">
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">register</button>
+                    </div>
+                </div>
         </div>
 
     </body>
