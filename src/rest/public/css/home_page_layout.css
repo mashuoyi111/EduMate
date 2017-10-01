@@ -1,0 +1,50 @@
+.ico_img{
+  width: 50px;
+  height: 50px;
+}
+.center{
+  position: absolute;
+  bottom: 5%;
+  left: 45%;
+  margin: 0 auto;
+  text-align: center;
+}
+.header{
+  margin: 0,auto;
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  color: white;
+  font-size: 40px;
+}
+.form-group{
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+}
+
+.form-control{
+  text-align: center;
+  width: 60%;
+  height: 50%;
+}
+
+.prof-box {
+    width: 40%;
+    min-height: 500px;
+    background: rgba(0,0,0,0.4);
+    padding: 15px;
+/*    color: white;*/
+    margin:0 auto;
+    margin-top: 1px;
+    overflow: hidden;
+    text-align: center;
+/*    font-family: 'Lato', sans-serif;*/
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 6;
+    border: 5px groove #00FFFF;
+
+}
