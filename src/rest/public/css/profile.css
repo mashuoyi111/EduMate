@@ -79,6 +79,11 @@ button{
 	background-color: #e7e7e7;
 	color: black;
 }
+
+#but {
+	text-align: center;
+	margin: 20px;
+}
 .title{
 	text-align: center;
 	height: 30%;
