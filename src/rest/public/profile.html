@@ -28,28 +28,31 @@
         </ul>
     </div>
 
+
     <div class="wrapper">
         <div id="main">
         </div>
 
         <p id="profileword">Profile</p>
 
-        <div id="user">
-            <p class="words">Username: eduhacks2017 </p>
-        </div>
 
+        <table style="margin-left: 20px;" class="table table-bordered">
+        <tbody>
+        <tr>
+        <div id="user">
+            <td><p class="words">Username:</p></td>
+            <td><p class="words"> eduhacks2017</p></td>
+        </div>
+        </tr>
+
+        <tr>
         <div id="profile">
-            <p class="words">Password: </p>
-            <div class="row">
-                <div class="col">
-                    <form id="pass">
-                        <input type="password" size="35" id="passChange">
-                    </form>
-                </div>
-                <div class="col">
-                    <button class="but p" type="button" id="change">Change Password</button>
-                </div>
-            </div>
+            <td><p class="words">Password: </p></td>
+            <td>
+                 <input type="password" size="35" id="passChange">
+                    
+            </td>
+        </tr>
             <!--
         <form id="pass">
         <input type="password" size="35" id="passChange">   
@@ -58,37 +61,54 @@
 -->
         </div>
 
-
-
+        <tr>
         <div id="gpa">
-            <p class="words">Cumulative GPA: </p>
-            <p class="userinfo"> 87.5%</p>
+            <td><p class="words">Cumulative GPA: </p> </td>
+            <td><p class="userinfo"> 87.5%</p> </td>
         </div>
+        </tr>
 
+        <tr>
         <div id="preflanguage">
-            <p class="words">Preferred Languages: </p>
-            <p class="words">English</p>
-            <div class="row">
-                <div class="col">
-                    <form>
+            <td><p class="words">Preferred Languages: </p></td>
+            <td>
+            
                         <select id="country" name="country">
                 <option value="au">English</option>
                 <option value="ca">Mandarin</option>
                 <option value="usa">Japanese</option>
             </select>
-                    </form>
-                </div>
-                <div class="col">
-                    <button class="but p" type="button" id="change">Add Language</button>
-                </div>
-            </div>
+            </td>
         </div>
+        </tr>
 
+        <tr>
         <div id="prefsearchby">
-            <p class="words">Who can search you? </p>
-            <p class="words"> Minimum GPA: </p>
-            <p class="words"> Language: </p>
+            <td><p class="words">Who can search you? </p></td>
+            <td>
+            <select id="country" name="country">
+                <option value="au">English</option>
+                <option value="ca">Mandarin</option>
+                <option value="usa">Japanese</option>
+            </select>
+            </td>
+            <tr>
+            <td><p class="words"> Minimum GPA: </p></td>
+           <td><p class="words"> Language: </p></td>
+       </tr>
         </div>
+        </tr>
+
+        <tr>
+        <div id="intro">
+            <td><p class="words">Tell others about yourself: </p></td>
+            <td>
+             <input type="text" size="35" id="introduction">
+            </td>
+        </div>
+        </tr>
+    </tbody>
+    </table>
     </div>
 
 </body>
