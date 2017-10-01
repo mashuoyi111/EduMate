@@ -28,7 +28,7 @@
       <h1>EduMate</h1>  
     </header>
 
-  <div class="prof-box">
+  <div id="main_content" class="prof-box">
     <div class="form-group">
       <label for="sel2">School:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
       <select class="form-control input-lg">
@@ -70,10 +70,11 @@
       <option>60-</option>
     </select>
   </div>
-    <button type="button" onclick="location.href='./result.html'; return false;" class="btn btn-info">Find A Dream Partner</button>
+    <button type="button" onclick="document.getElementById('main_content').style.opacity= 0.2;; document.getElementById('load').style.display='block'; setTimeout(function(){ location.href='./result.html'; }, 3000); return false;" class="btn btn-info">Find A Dream Partner</button>
 
   </div>
 
+  <div id="load" class="mloader"></div>
   <footer>
     <div class="center">
       <a href="http://facebook.com" target="_blank"><img class="ico_img" src="./img/facebook-logo.svg" alt="Facebook Icon"></a>
