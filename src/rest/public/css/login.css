@@ -2,7 +2,7 @@
     opacity: 0.85;    
     position:absolute;
     left:50%;
-    top:50%;
+    top:25%;
     width: 40%;
     margin-left: -20%;
     margin-top: -5%;
@@ -14,4 +14,9 @@
 #col{
     padding-right: 0px;
     padding-left: 0px;
+}
+.imgBox {
+    height: 75%;
+    width: 75%;
+    margin:0 auto;
 }
