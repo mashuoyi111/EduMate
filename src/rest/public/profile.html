@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -32,10 +32,22 @@
 
         <div id ="profile">
         <p class="words" >Password: </p>
+        <div class="row">
+        <div class="col">
+        <form id="pass">
+        <input type="password" size="35" id="passChange">   
+        </form>
+        </div>
+        <div class="col">
+        <button class="but p" type="button" id="change">Change Password</button>
+        </div>
+        </div>
+<!--
         <form id="pass">
         <input type="password" size="35" id="passChange">   
         </form>
         <button class="but p" type="button" id="change">Change Password</button>
+-->
         </div>
 
     
@@ -48,14 +60,20 @@
         <div id ="preflanguage">
         <p class="words" >Preferred Languages: </p>
         <p class="words" >English</p>
-        <form>
+        <div class="row">
+            <div class="col">
+             <form>
             <select id="country" name="country">
                 <option value="au">English</option>
                 <option value="ca">Mandarin</option>
                 <option value="usa">Japanese</option>
             </select>
-        </form>
-        <button class="but p" type="button" id="change">Add Language</button>
+            </form>
+            </div>
+            <div class="col">
+            <button class="but p" type="button" id="change">Add Language</button>
+            </div>
+         </div>
         </div>
 
         <div id ="prefsearchby">
